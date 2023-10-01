@@ -1,0 +1,286 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ledger Hardware Crypto Wallet</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar" class="navbar">
+    <ul>
+      <li><a href="#main" class="nav-link">Main</a></li>
+      <li><a href="#features" class="nav-link">Features</a></li>
+      <li><a href="#how_it_works" class="nav-link">How It Works</a></li>
+      <li><a href="#pricing" class="nav-link">Pricing</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+    <img id="header-img" class="logo" src= "https://logowik.com/content/uploads/images/ledger-wallet5715.jpg" alt="Legder Logo">
+  </header>
+  <div id="main">
+  <h1>Ledger Nano X</h1>
+  <img class="crypto-wallet" src="https://helios-i.mashable.com/imagery/articles/03yjWou7bOrSKV0PyWanm0a/hero-image.fill.size_1248x702.v1623374753.jpg" alt="Legder Hardware Crypto Wallet">
+   <div id="features">
+    <h2>Features</h2>
+    <ul class="crypto-wallet-features">
+<li><b>Bluetooth connectivity:</b> Easily connect to your smartphone or tablet to manage your crypto on the go.<br>
+Large capacity: Store up to 100 different crypto assets on each Nano X.</li>
+<li><b>Excellent coin support: </b>The Ledger Live app supports over 5000 different cryptocurrencies. View the full list.</li>
+<li><b>Peace of mind:</b> Rest assured that your crypto is always secure and under your control, no matter where you go.</li>
+<li><b>Advanced security:</b> Multiple layers of security, including a secure element chip and a PIN code.</li>
+<li><b>Easy setup:</b> With the Ledger Live app, you can start managing your crypto in minutes.</li>
+<li><b>Device compatibility: </b>Works with Windows, Mac, Linux, iOS, and Android. View tech specs.</li>
+    </ul>
+    <div id="how_it_works" ><h2>How It Works</h2>
+ <iframe id="video" src="https://www.youtube.com/embed/WlF5RjJB4b8"></iframe>
+  </div>
+  <div id="pricing">
+    <h2>Pricing</h2>
+    <h3>£136</h3>
+    <p>Includes VAT</p>
+    </div>
+    <div id="contact">
+      <h2>Contact</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="Enter your e-mail address">
+      <input id="submit" type="submit">
+    </form>
+    </div>
+    </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: rgb(195, 174, 195);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  margin: 0; 
+  padding-top:0;
+  text-align:center;
+  align-items:center;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height:10%;
+margin-bottom:3em;background-color: rgb(98, 73, 98);
+  position: fixed;
+
+}
+.logo {display:relative;
+position:top;
+width: auto;
+height: 100%; 
+max-width: 100%;}
+
+nav {
+  display: flex;
+  width: 100%;
+  max-width:100%;
+  padding:0;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  gap: 5.5em; 
+  padding: 1em; 
+  width: 100%; 
+}
+
+li{display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align:center;
+  width:auto;}
+
+  a{color:white;
+list-style:none;
+text-decoration:none;
+font-size: auto;
+}
+
+#main
+{height:auto;
+width:100%;
+padding-top:2.5em;
+padding-bottom:0;
+margin-bottom:0;
+}
+
+h1{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+margin:1.5em auto 1em auto;
+padding-top:1.5em;
+font-size:2.5em;}
+
+.crypto-wallet { 
+  display: block;
+  position:sticky;
+  z-index:-2; 
+  width: 55%; 
+  max-width: 100%; 
+  height: auto; 
+  margin: 2em auto 0 auto;
+  filter: drop-shadow(0 0 0.955rem rgb(16, 16, 16));
+}
+
+#features,#how_it_works{height:auto;
+width:100%;
+padding-top:3.7em;
+}
+
+h2{text-align:center;
+font-size:2.5em;
+margin-top:1em;
+margin-bottom:0.8em;
+padding-top:0.6em;
+}
+.crypto-wallet-features {line-height:1.5em;}
+
+.crypto-wallet-features>li{margin-bottom:0.7em;}
+
+iframe{display:block;position:sticky;
+  z-index:-2;
+  width: 70%; 
+  max-width: 100%; 
+  height: 65%; 
+  margin: 0 auto;
+  filter: drop-shadow(0 0 0.955rem rgb(16, 16, 16));
+}
+
+#pricing{height:50vh;
+width:auto;
+padding-top:4.5em;
+margin-bottom:0;
+padding-bottom:0;
+}
+
+h3,p {text-align:center;
+font-size:1.5em;
+margin-bottom:1em;
+padding-bottom:0;}
+
+h3{margin-top:3em;}
+
+#contact{height:50vh;
+width:auto;
+padding-top:0;
+margin-top:0;
+}
+form{text-align:center;}
+
+input{display: block;
+    width: 30%;
+    margin:0 35%;
+    padding: 0.75em;
+  font-size:1.3em;}
+
+  input[type=email]::placeholder{text-align:center;}
+
+  
+@media screen and (max-width: 768px) {
+  header {
+flex-direction: row;
+width:100%;
+height:25%;
+margin-bottom:0.5em;
+padding-bottom:0.1em;
+  }
+
+  .logo {width: auto;
+  height:50%;
+  }
+
+  nav {
+    width: 100%;
+    margin:0.5em auto;
+ 
+  }
+
+  nav > ul {
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    gap:0.6em;
+   
+  }
+  a{font-size:60%;}
+
+  #main
+{height:auto;
+width:auto;
+margin-bottom:0;
+padding-bottom:0;
+}
+
+h1{
+    margin: 2.5em auto 1em 0;
+    padding-top:2.7em;
+    padding-bottom:0.5em;
+  font-size:2em;}
+
+  .crypto-wallet{
+  width:100%;
+  height:auto;
+  margin: 1em auto 0 auto;
+  padding-bottom:0.5em;}
+
+ h2 {
+    text-align: center;
+    align-items: center;
+   font-size:2em;
+    margin: 2.5em 0 0.4em 0;
+    padding:1em 0 0 0;
+    display: block; 
+  }
+
+#features,#how_it_works{
+width: 100%;
+height:100vh;
+margin: 1.5em 0;
+padding: 1.5em 0 1em 0;}
+
+  .crypto-wallet-features{
+font-size:0.8em;  line-height:1.2em;
+}
+
+iframe{margin:1em auto 2em auto;}
+
+#pricing,#contact{
+height:100vh;
+margin:1.2em 0;
+padding: 2em 0 1em 0;}
+
+input{display: block;
+    width: auto;
+margin:auto;
+  padding: 0.5em auto;
+font-size:0.6em;}
+  input[type="email"] {
+    width: 75%;
+  }[type="submit"] {
+margin-bottom: 1em;
+
+  }
+}
+
+** end of undefined **
+
